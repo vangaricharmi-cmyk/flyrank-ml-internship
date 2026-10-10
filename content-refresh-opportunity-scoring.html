@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content Refresh Opportunity Scoring</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f7fb;color:#172033;font:16px/1.55 "Segoe UI",Arial,sans-serif}
+header{padding:42px 7%;color:white;background:linear-gradient(125deg,#142b57,#3659d9)}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.76rem;font-weight:700;opacity:.85}
+h1{font-size:clamp(2rem,4vw,3rem);line-height:1.12;margin:12px 0}header p{max-width:780px;color:#e1e8ff}
+main{max-width:1100px;margin:28px auto;padding:0 20px 36px}.notice{background:#fff8e8;border:1px solid #f1d7a5;color:#76521a;border-radius:12px;padding:14px 16px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:white;border:1px solid #e6eaf1;border-radius:16px;padding:21px;box-shadow:0 4px 18px #16223a0a}
+h2{font-size:1.15rem;margin:0 0 10px}.pill{display:inline-block;background:#e8efff;color:#2d4fc4;border-radius:99px;padding:4px 10px;font-size:.78rem;font-weight:700;margin-bottom:10px}
+.sub{color:#667085;font-size:.92rem}.section{margin-top:18px}.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.step{background:#fbfcff;border:1px solid #e6eaf1;border-radius:12px;padding:16px}.step b{display:block;margin-bottom:6px}
+ul{padding-left:20px;color:#475467}li{margin:6px 0}footer{text-align:center;color:#667085;font-size:.86rem;padding:22px}
+@media(max-width:720px){.grid,.steps{grid-template-columns:1fr}header{padding:32px 22px}}
+</style></head>
+<body>
+<header><div class="eyebrow">Machine Learning · Project Output</div>
+<h1>Content Refresh<br>Opportunity Scoring</h1>
+<p>A data-driven framework for identifying web pages that may benefit from content updates and prioritizing review based on available performance signals.</p></header>
+<main>
+<div class="notice"><strong>Project note:</strong> This page describes the project workflow, not verified model results. Add measured scores, charts, and page-level recommendations only after confirming them against your notebook and dataset.</div>
+<section class="grid">
+<article class="card"><div class="pill">Goal</div><h2>Find refresh candidates</h2><p class="sub">Organize pages for review using available search and content performance signals.</p></article>
+<article class="card"><div class="pill">Approach</div><h2>Score opportunities</h2><p class="sub">Use a consistent scoring or modeling workflow to compare potential improvement opportunities.</p></article>
+<article class="card"><div class="pill">Outcome</div><h2>Prioritize next actions</h2><p class="sub">Help a content team decide which pages to investigate first, with human review before changes.</p></article>
+</section>
+<section class="section card"><h2>Project workflow</h2><div class="steps">
+<div class="step"><b>01 · Prepare data</b><span class="sub">Inspect page-level fields, check missing values, and prepare features for analysis.</span></div>
+<div class="step"><b>02 · Analyze signals</b><span class="sub">Compare available performance indicators and apply the scoring or model defined in the notebook.</span></div>
+<div class="step"><b>03 · Review priorities</b><span class="sub">Validate high-priority candidates and recommend updates based on evidence and editorial judgment.</span></div>
+</div></section>
+<section class="section grid">
+<article class="card"><h2>Potential signals</h2><ul><li>Search impressions and clicks</li><li>Click-through rate and position, if available</li><li>Content freshness and relevance</li><li>Engagement, if available</li></ul></article>
+<article class="card"><h2>Responsible interpretation</h2><ul><li>A score is a prioritization aid, not a guarantee of ranking improvement.</li><li>Confirm feature definitions and data quality.</li><li>Review recommendations before updating live content.</li></ul></article>
+<article class="card"><h2>Tools & methods</h2><ul><li>Python and data analysis</li><li>Feature preparation and scoring/model comparison</li><li>Visualization and decision support</li></ul><p class="sub">List only tools and methods actually used in your final submission.</p></article>
+</section><footer>Content Refresh Opportunity Scoring · Project showcase</footer>
+</main></body></html>
